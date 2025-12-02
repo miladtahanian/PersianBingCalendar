@@ -4650,3 +4650,317 @@ The internet connection was not found.
 11/15/2025 10:43:10 AM
 The internet connection was not found.
 
+11/16/2025 10:10:30 AM
+The internet connection was not found.
+
+11/16/2025 12:00:01 PM
+The internet connection was not found.
+
+11/16/2025 03:28:21 PM
+The internet connection was not found.
+
+11/16/2025 03:34:05 PM
+The internet connection was not found.
+
+11/17/2025 08:15:55 AM
+The internet connection was not found.
+
+11/17/2025 08:24:30 AM
+The internet connection was not found.
+
+11/17/2025 01:20:16 PM
+The internet connection was not found.
+
+11/17/2025 02:00:01 PM
+The internet connection was not found.
+
+11/18/2025 01:24:27 AM
+The internet connection was not found.
+
+11/18/2025 02:00:02 AM
+The internet connection was not found.
+
+11/18/2025 03:00:02 AM
+The internet connection was not found.
+
+11/18/2025 07:50:52 AM
+The internet connection was not found.
+
+11/18/2025 07:56:02 AM
+The internet connection was not found.
+
+11/18/2025 08:00:02 AM
+The internet connection was not found.
+
+11/18/2025 08:41:14 AM
+The internet connection was not found.
+
+11/18/2025 10:00:02 AM
+The internet connection was not found.
+
+11/18/2025 02:00:02 PM
+The internet connection was not found.
+
+11/18/2025 07:39:32 PM
+The internet connection was not found.
+
+11/18/2025 08:00:08 PM
+System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderimages.Read10_images()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at PersianBingCalendar.Utils.XmlUtils.FromXmlContent[T](String allText)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c.<DownloadTodayBingImages>b__0_1(String xml)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/19/2025 01:46:00 AM
+The internet connection was not found.
+
+11/19/2025 01:53:10 AM
+The internet connection was not found.
+
+11/19/2025 11:15:45 AM
+The internet connection was not found.
+
+11/19/2025 11:18:33 AM
+The internet connection was not found.
+
+11/19/2025 03:41:47 PM
+The internet connection was not found.
+
+11/19/2025 03:45:43 PM
+The internet connection was not found.
+
+11/20/2025 09:08:50 AM
+The internet connection was not found.
+
+11/21/2025 01:02:17 AM
+The internet connection was not found.
+
+11/21/2025 11:04:43 AM
+System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderimages.Read10_images()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at PersianBingCalendar.Utils.XmlUtils.FromXmlContent[T](String allText)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c.<DownloadTodayBingImages>b__0_1(String xml)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 11:01:13 AM
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a receive. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 11:01:17 AM
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a receive. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 11:01:18 AM
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a receive. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.Connection.SyncRead(HttpWebRequest request, Boolean userRetrievedStream, Boolean probeRead)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 11:03:07 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 11:03:07 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 11:04:36 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 11:05:20 AM
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 11:05:20 AM
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 11:05:20 AM
+System.Net.WebException: The operation has timed out
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/22/2025 02:00:02 PM
+The internet connection was not found.
+
+11/22/2025 07:29:35 PM
+The internet connection was not found.
+
+11/25/2025 08:35:58 AM
+The internet connection was not found.
+
+11/26/2025 11:00:02 AM
+The internet connection was not found.
+
+11/26/2025 12:00:02 PM
+The internet connection was not found.
+
+11/26/2025 01:00:02 PM
+The internet connection was not found.
+
+11/26/2025 03:00:02 PM
+The internet connection was not found.
+
+11/27/2025 08:49:35 AM
+The internet connection was not found.
+
+11/27/2025 01:00:04 PM
+System.InvalidOperationException: There is an error in XML document (0, 0). ---> System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlReader.MoveToContent()
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderimages.Read10_images()
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(TextReader textReader)
+   at PersianBingCalendar.Utils.XmlUtils.FromXmlContent[T](String allText)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c.<DownloadTodayBingImages>b__0_1(String xml)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/29/2025 10:43:54 AM
+The internet connection was not found.
+
+11/29/2025 10:48:01 AM
+The internet connection was not found.
+
+11/29/2025 01:38:04 PM
+The internet connection was not found.
+
+11/30/2025 08:43:04 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/30/2025 08:43:04 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/30/2025 08:43:04 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/30/2025 08:43:04 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/30/2025 08:43:05 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/30/2025 08:43:05 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/30/2025 08:43:05 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/30/2025 08:43:05 AM
+System.Net.WebException: The request was aborted: The operation has timed out.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at PersianBingCalendar.Core.BingImagesDownloader.downloadImage(String xmlUrl, String dir, Func`2 getFullUrl)
+   at PersianBingCalendar.Core.BingImagesDownloader.<>c__DisplayClass0_0.<DownloadTodayBingImages>b__0(Int32 imageIndex)
+
+11/30/2025 09:48:21 AM
+The internet connection was not found.
+
+11/30/2025 12:00:13 PM
+The internet connection was not found.
+
+11/30/2025 06:00:02 PM
+The internet connection was not found.
+
+11/30/2025 07:00:02 PM
+The internet connection was not found.
+
+12/1/2025 09:22:25 PM
+The internet connection was not found.
+
+12/1/2025 09:25:43 PM
+The internet connection was not found.
+
+12/2/2025 08:23:01 AM
+The internet connection was not found.
+
+12/2/2025 08:14:58 PM
+The internet connection was not found.
+
